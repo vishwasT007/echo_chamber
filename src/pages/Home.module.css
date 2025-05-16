@@ -29,7 +29,7 @@
   margin-bottom: 1rem; /* Equivalent to mb-4 */
 }
 
-.welcome-text {
+.welcomeText {
   font-size: 1.25rem; /* Equivalent to text-xl */
   font-weight: 600; /* Equivalent to font-semibold */
   margin-bottom: 0.5rem; /* Equivalent to mb-2 */
