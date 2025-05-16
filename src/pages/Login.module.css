@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a202c; /* Equivalent to bg-gray-900 */
+  color: #ffffff; /* Equivalent to text-white */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2d3748; /* Equivalent to bg-gray-800 */
+  padding: 1.5rem; /* Roughly equivalent to p-6 */
+  border-radius: 0.5rem; /* Equivalent to rounded-xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-xl */
+}
+
+.title {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+}
+
+.button {
+  background-color: #4299e1; /* Equivalent to bg-blue-500 */
+  color: #ffffff; /* Equivalent to text-white */
+  padding: 0.5rem 1.5rem; /* Roughly equivalent to px-6 py-2 */
+  border-radius: 0.25rem; /* Equivalent to rounded */
+  font-weight: 600; /* Equivalent to font-semibold */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* For hover effect */
+  border: none; /* To remove default button border */
+}
+
+.button:hover {
+  background-color: #2b6cb0; /* Equivalent to hover:bg-blue-600 */
+}
